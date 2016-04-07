@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="162.0" y="61.5">data.Mark</node>
+    <node x="316.0" y="61.5">data.Course</node>
+    <node x="-3.5" y="61.5">data.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="data.Mark" target="data.Person">
+      <point x="0.0" y="18.5" />
+      <point x="200.0" y="160.0" />
+      <point x="40.0" y="160.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="data.Person" target="data.Mark">
+      <point x="43.5" y="0.0" />
+      <point x="-38.0" y="0.0" />
+    </edge>
+    <edge source="data.Course" target="data.Mark">
+      <point x="0.0" y="-18.5" />
+      <point x="360.0" y="0.0" />
+      <point x="200.0" y="0.0" />
+      <point x="0.0" y="-18.5" />
+    </edge>
+    <edge source="data.Mark" target="data.Course">
+      <point x="38.0" y="0.0" />
+      <point x="-44.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="44.0" y="105.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
